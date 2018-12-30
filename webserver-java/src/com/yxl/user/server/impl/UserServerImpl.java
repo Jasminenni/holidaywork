@@ -122,10 +122,10 @@ public class UserServerImpl implements IUserService
 		System.out.println("---->"+strJson);
 		return strJson;
 	}
-//	public static void main(String[] args)
-//	{
-//		UserServerImpl u = new UserServerImpl();
-//		u.queryStuKmCount();
-//	}
+	public static void main(String[] args)
+	{
+		UserServerImpl u = new UserServerImpl();
+		u.queryStuKmCount();
+	}
 //	
 }
